@@ -9,7 +9,6 @@
 class RainbowChaseEffect final : public Effect {
 public:
     int trailLength;
-    float speed = 1;
 
     explicit RainbowChaseEffect(int trailLength);
     void frame(Adafruit_NeoPixel &strip, uint16_t currentFrame) override;
